@@ -7,20 +7,21 @@
 </head>
 <body>
     <form>
-        <input type="text" name="nom">
-        <input type="password">
-        M<input.type="radio" name="civilité">
+       <label for="nom"> Nom:</label> <input>type="text name="nom"
+        placeholder="pseudo"I autofocus id="nom"><br>
+        <label for="mdp">Mot de passe:</label>input type="password"
+        name="mdp" id="mdp" pattern="(8,)"><br>
+        M.<input type="radio" value="monsieu" 
+        name="civilité">
         Mme <input type="radio"
         name="civilité"><br>
-        <select>
-            <option>uk</option>
-            <option>FR</option>
-            <option>BE</option>
-        </select><br>
-        Newsletter:<input
-        type="checkbox"><br>
-        Message:<textarea></textarea><br>
-    </input type="submit" value="Envoyer le message">
+      ville:  <select name="ville">
+            <option value>Paris</option>
+            <option value>Lille</option>
+            <option value>Bruxelles/option>
+        </select><br> 
+       <label for="message"> Message:</label><required>textarea name="message"> id message</textarea><br> </form> </label for= "newsletter ">Newsletter: <input type="checkbox"><br>
+    <input type="submit" value="Envoyer le message">
 
     </form>
 </body>
