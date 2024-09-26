@@ -6,21 +6,25 @@
     <title>Document</title>
 </head>
 <body>
-    <form>
+    <form action="mailto:anneaissata23@icloud.com"
+    method="post">
        <label for="nom"> Nom:</label> <input>type="text name="nom"
         placeholder="pseudo"I autofocus id="nom"><br>
         <label for="mdp">Mot de passe:</label>input type="password"
-        name="mdp" id="mdp" pattern="(8,)"><br>
-        M.<input type="radio" value="monsieu" 
+        name="mdp" id="mdp" pattern=".(8,)"><br>
+        <label for="email">Email:</label> <input type="email id="email"
+        name="email" pattern="(a-z0-9._%+/-)+@(a-z0-9./-)+/.(a-z)(2,)$">
+         <input type="date">   
+        M.<input type="radio" value="monsieur" 
         name="civilité">
         Mme <input type="radio"
         name="civilité"><br>
       ville:  <select name="ville">
             <option value>Paris</option>
             <option value>Lille</option>
-            <option value>Bruxelles/option>
+            <option value>Bruxelles</option>
         </select><br> 
-       <label for="message"> Message:</label><required>textarea name="message"> id message</textarea><br> </form> </label for= "newsletter ">Newsletter: <input type="checkbox"><br>
+       <label for="message"> Message:</label> <textarea name="message"> </textarea><br> <Newsletter:<input type="checkbox"><br>
     <input type="submit" value="Envoyer le message">
 
     </form>
