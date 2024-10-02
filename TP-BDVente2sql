@@ -1,0 +1,11 @@
+---------------------------------------------------------------------------------------------------------------------------
+--1:Afficher le contenu de la table Employe
+Select *
+From Employe ;
+
+--1 bis 
+Select IdEmploye, Nom, Prenom, Dn, pays
+From Employe
+--1 bis
+Select p.IdEmploye, p.Nom, Prenom, Dn, pays
+From Employe as p

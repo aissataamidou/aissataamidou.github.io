@@ -3,14 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Document</title>  <link rel="stylesheet"
+    href="cv.css">
+    <style type="text/css">#h2{color:red}</style>
 </head>
 <body>
     <form action="mailto:anneaissata23@icloud.com"
     method="post">
-       <label for="nom"> Nom:</label> <input>type="text name="nom"
-        placeholder="pseudo"I autofocus id="nom"><br>
-        <label for="mdp">Mot de passe:</label>input type="password"
+       <label for="nom"> Nom:</label> <input type="text name="nom"
+        placeholder="pseudo" autofocus id="nom"><br>
+        <label for="mdp">Mot de passe:</label><input type="password"
         name="mdp" id="mdp" pattern=".(8,)"><br>
         <label for="email">Email:</label> <input type="email id="email"
         name="email" pattern="(a-z0-9._%+/-)+@(a-z0-9./-)+/.(a-z)(2,)$">
@@ -26,7 +28,7 @@
         </select><br> 
        <label for="message"> Message:</label> <textarea name="message"> </textarea><br> <Newsletter:<input type="checkbox"><br>
     <input type="submit" value="Envoyer le message">
-
-    </form>
-</body>
+    </form><h1 id="titrerouge"></h1>
+    <a href="index.html">Retour à l'accueil</a>
+</body> 
 </html>

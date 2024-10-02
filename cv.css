@@ -1,0 +1,112 @@
+body{
+background-color:#65899a;
+font-family: Arial,sans-serif;
+font-size: large;
+margin: 0;
+padding: 0;
+}
+#cours1{color:blueviolet;}
+h1,.vert{color:green;
+}
+
+#carte{
+    width:70%;
+    border: 2px solid green;
+    margin: 1em 0 0 3em;
+    padding:1em;
+    border-radius: 1em;
+    box-shadow: 5px 5px 5px black;
+    background-color: rgba(0,187,255,0.495);
+}
+#mention{
+    position: absolute;
+    top: 1em;
+    right: 1em;
+}
+a:hover{
+    color: red
+}
+a#retour:hover{
+color: orange ;
+text-decoration:  none;
+}
+a#Retour {
+padding:2em;
+margin: 2em;
+color:blue;
+text-decoration: none;
+}
+#carte h1, #mention{
+    color:orange;
+}
+@media screen and (max-width:800px ) {
+    #adresse {
+        display: none;
+    }
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+
+.carte {
+    width: 350px;
+    height: 200px;
+    border: 2px solid #333;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+}
+
+.header {
+    background-color: #2C3E50;
+    color: white;
+    padding: 10px;
+    border-radius: 8px 8px 0 0;
+}
+
+h1 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.contenu {
+    padding: 10px;
+}
+
+h2 {
+    font-size: 18px;
+    color: #333;
+}
+
+.titre {
+    font-size: 14px;
+    color: #555;
+    margin: 5px 0;
+}
+
+.tel, .email {
+    font-size: 12px;
+    color: #777;
+}
+
+.footer {
+    margin-top: 15px;
+}
+
+.footer p {
+    font-size: 12px;
+    color: #888;
+}
